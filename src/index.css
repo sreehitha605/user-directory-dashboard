@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  margin: 0;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Search Bar */
+input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Sort Section */
+h3 {
+  margin-top: 20px;
+  color: #34495e;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+/* Button Hover Effects */
+button:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+
+/* Special Reset Button */
+button:last-child {
+  background: #e74c3c;
+}
+
+button:last-child:hover {
+  background: #c0392b;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Table Header */
+th {
+  background: #2c3e50;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+/* Table Rows */
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Zebra Stripes */
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Hover Effect */
+tr:hover {
+  background: #d6eaf8;
+  cursor: pointer;
+  transition: 0.2s;
+}
