@@ -11,7 +11,7 @@ export default function SortControls({ setSortField, setSortOrder }) {
 
   return (
     <div style={{ marginBottom: "10px" }}>
-      <h3>Sort Options</h3>
+      
 
       <button onClick={() => handleSort("name", "asc")}>
         Name A-Z
